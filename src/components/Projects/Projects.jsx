@@ -6,7 +6,7 @@ import Magic8BallImg from '../../assets/projectImages/Magic8Ball.png'
 import MarkdownImg from '../../assets/projectImages/Markdown Previewer.png';
 import PomodoroImg from '../../assets/projectImages/Pomodoro.png';
 import RandomQuoteImg from '../../assets/projectImages/RandomQuote.png';
-import GoogleImg from '../../assets/projectImages/GoogleImg.png'
+import GoogleImg from '../../assets/projectImages/GoogleImg.png';
 
 
 
