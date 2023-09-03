@@ -3,12 +3,29 @@
     grid-template-columns:1fr 5fr;
     margin:0px;
     padding:0px;
-    height:100vh;
+    height:100%;
   }
   
   #detail{
     display:flex;
     align-items: center;
-    height:100vh;
+    height:100%;
     margin-left:100px;
+  }
+
+  @media  screen and  (min-width:500px) {
+
+    #main{
+    display:flex;
+    flex-direction:column;
+    background-color:green;
+    }
+    #detail{
+      display:flex;
+      align-items: center;
+      height:100%;
+     
+    }
+
+    
   }
