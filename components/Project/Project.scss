@@ -1,0 +1,23 @@
+.projectContainer{
+    display:flex;
+    flex-direction:column;
+    width: 10em;
+   box-shadow:2px 2px 5px black;
+    justify-content:center;
+    align-items: center;
+    border-radius:1em;
+   padding:.5em;
+    background-color:white;
+    a{
+       font-size:medium;
+    }
+
+a img{
+    height: auto;
+    width: 100%;
+    border-radius:5px;
+    border: 1px solid grey;
+}
+    
+}
+
