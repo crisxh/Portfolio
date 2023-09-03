@@ -1,14 +1,17 @@
-#main{
+#HomeContainer{
     display:grid;
     grid-template-columns:1fr 5fr;
     margin:0px;
     padding:0px;
     height:100vh;
-  }
-  
-  #detail{
+    
+}
+
+.homeWelcomeContainer{
     display:flex;
     align-items: center;
     height:100vh;
-    margin-left:100px;
-  }
+    padding-left:100px;
+    font-size:x-large;
+   
+}

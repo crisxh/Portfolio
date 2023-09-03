@@ -6,6 +6,7 @@ import Projects from './components/Projects/Projects.jsx';
 import Root from './components/Root/Root.jsx';
 import Error from './Error.jsx';
 import Welcome from './components/Welcome/Welcome.jsx';
+import Home from './components/Home/Home.jsx';
 
 import About from './components/About/About.jsx';
 import './index.css'
@@ -15,6 +16,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 
 const router = createBrowserRouter([
+  {
+    path: "",
+    element: <Home />
+  },
   {
     path: "/",
     element: <Root />,
