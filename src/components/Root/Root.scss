@@ -13,14 +13,13 @@
     margin-left:100px;
   }
 
-  @media  screen and  (min-width:500px) {
+  @media  screen and  (max-width:500px) {
 
-    #main{
+    #rootMain{
     display:flex;
     flex-direction:column;
-    background-color:green;
     }
-    #detail{
+    #rootDetail{
       display:flex;
       align-items: center;
       height:100%;

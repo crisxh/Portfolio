@@ -6,9 +6,9 @@ import './Root.scss'
 
 export default function Root() {
     return (
-        <div id='main'>
+        <div id='rootMain'>
             <NavMenu />
-            <div id="detail">
+            <div id="rootDetail">
                 <Outlet />
             </div>
 

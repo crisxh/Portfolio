@@ -8,6 +8,7 @@ export default function Project({ url, title, image, description }) {
                 <img src={image ? image : null} />
                 {title}
             </a>
+            <p>{description}</p>
         </div>
     )
 }

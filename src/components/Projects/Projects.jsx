@@ -49,13 +49,6 @@ const projectList = [
         tags: ['game',]
     },
     {
-        name: 'virtual pet',
-        image: ['virtual pet.png'],
-        url: `https://crisxh.github.io/virtual_pet/`,
-        tags: ['game',]
-
-    },
-    {
         name: 'checkers',
         image: CheckersImg,
         url: 'https://crisxh.github.io/checkers',
