@@ -7,6 +7,7 @@ import MarkdownImg from '../../assets/projectImages/Markdown Previewer.png';
 import PomodoroImg from '../../assets/projectImages/Pomodoro.png';
 import RandomQuoteImg from '../../assets/projectImages/RandomQuote.png';
 import GoogleImg from '../../assets/projectImages/GoogleImg.png';
+import CardEntryImg from '../../assets/projectImages/CardEntry.png';
 
 
 
@@ -67,7 +68,7 @@ const projectList = [
     },
     {
         name: "Credit Card Entry Front End",
-        image: 'https://via.placeholder.com/150?text=Credit Card',
+        image: { CardEntryImg },
         url: "https://crisxh.github.io/credit-card-entry",
         tags: ['front-end', 'design', 'frontend-mentor-io']
     }
