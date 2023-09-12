@@ -1,5 +1,6 @@
 ul{
     list-style: none;
+   
     
 }
 
@@ -31,4 +32,10 @@ button{
     align-items: center;
     justify-content: center;
     font-size:x-large;
+}
+
+@media  screen and  (max-width:500px) {
+ul{
+    display:flex;
+}
 }

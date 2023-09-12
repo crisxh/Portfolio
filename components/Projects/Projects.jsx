@@ -6,7 +6,8 @@ import Magic8BallImg from '../../assets/projectImages/Magic8Ball.png'
 import MarkdownImg from '../../assets/projectImages/Markdown Previewer.png';
 import PomodoroImg from '../../assets/projectImages/Pomodoro.png';
 import RandomQuoteImg from '../../assets/projectImages/RandomQuote.png';
-import GoogleImg from '../../assets/projectImages/GoogleImg.png'
+import GoogleImg from '../../assets/projectImages/GoogleImg.png';
+import CardEntryImg from '../../assets/projectImages/CardEntry.png';
 
 
 
@@ -49,13 +50,6 @@ const projectList = [
         tags: ['game',]
     },
     {
-        name: 'virtual pet',
-        image: ['virtual pet.png'],
-        url: `https://crisxh.github.io/virtual_pet/`,
-        tags: ['game',]
-
-    },
-    {
         name: 'checkers',
         image: CheckersImg,
         url: 'https://crisxh.github.io/checkers',
@@ -74,7 +68,7 @@ const projectList = [
     },
     {
         name: "Credit Card Entry Front End",
-        image: 'https://via.placeholder.com/150?text=Credit Card',
+        image: { CardEntryImg },
         url: "https://crisxh.github.io/credit-card-entry",
         tags: ['front-end', 'design', 'frontend-mentor-io']
     }

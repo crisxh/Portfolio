@@ -1,0 +1,17 @@
+#HomeContainer{
+    display:grid;
+    grid-template-columns:1fr 5fr;
+    margin:0px;
+    padding:0px;
+  height: 100%;
+    
+}
+
+.homeWelcomeContainer{
+    display:flex;
+    align-items: center;
+    
+    padding-left:100px;
+    font-size:x-large;
+   
+}

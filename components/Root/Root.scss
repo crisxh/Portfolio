@@ -1,13 +1,30 @@
-#main{
+#rootMain{
     display:grid;
     grid-template-columns:1fr 5fr;
     margin:0px;
     padding:0px;
+    height:100%;
   }
   
   #detail{
     display:flex;
     align-items: center;
-    height:100vh;
+    height:100%;
     margin-left:100px;
+  }
+
+  @media  screen and  (max-width:500px) {
+
+    #rootMain{
+    display:flex;
+    flex-direction:column;
+    }
+    #rootDetail{
+      display:flex;
+      align-items: center;
+      height:100%;
+     
+    }
+
+    
   }
